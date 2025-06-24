@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+  font-family: 'Inter', 'Roboto', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem 0 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-height: 3rem;
+  display: block;
+  margin-right: 0;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact {
+  font-size: 1rem;
+  color: #fff;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: underline dotted;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 70vh;
+  padding-left: 4rem;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0 0 2rem 0;
+  line-height: 1.1;
+}
+
+.description {
+  position: absolute;
+  right: 3rem;
+  bottom: 3rem;
+  max-width: 26.25rem;
+  color: #b0b0b0;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    padding-left: 1.5rem;
+  }
+  .description {
+    left: 1.5rem;
+    bottom: 1.5rem;
+    max-width: 90vw;
+  }
+  .header {
+    padding: 1.5rem 1rem 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    font-size: 0.8rem;
+    text-align: right;
+  }
+  .header {
+    padding: 1.5rem 1rem 0 0.5rem;
+  }
+}
