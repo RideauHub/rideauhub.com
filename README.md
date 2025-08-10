@@ -23,3 +23,8 @@ At Rideau Hub, we believe in:
 Whether you're an entrepreneur, business owner, or professional, Rideau Hub is here to support your journey.
 
 🚀 **Let's build the future, together!**
+
+Services Offered:
+* Digital Evolution
+* Catalytic Capital
+* Talent Acceleration
